@@ -136,4 +136,9 @@ input#amount:focus{
     color: var(--black-color);
     background-color: var(--bg1-color);
     padding: 0.8em 0;
-  }
+}
+@media screen and (max-width: 420px) {
+    .app-title{
+        font-size: 1.2rem;
+    }
+}
